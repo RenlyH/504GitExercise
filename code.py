@@ -13,4 +13,5 @@ def function2(a):
     for b in a.keys():
         print(b + ':' + str(a[b]/total))
 
-function2(function1('ATCTGACGCGCGCCGC'))
+freq_dict = function1('ATCTGACGCGCGCCGC')
+function2(freq_dict)
